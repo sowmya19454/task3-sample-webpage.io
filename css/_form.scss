@@ -1,0 +1,26 @@
+.block {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  //   position: relative;
+}
+
+.block > .parent {
+  //   border: 2px solid $normalColor;
+  //   border-radius: 20px;
+  padding: 20px;
+  margin: 10px;
+}
+.block2 {
+  display: flex;
+  justify-content: center;
+}
+
+.block2 button:hover {
+  background-color: black;
+  color: aliceblue;
+}
+
+input {
+  width: 100%;
+  height: auto;
+}

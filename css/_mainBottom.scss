@@ -1,0 +1,10 @@
+.main-bottom {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.main-bottom > .item {
+  //   border: 2px solid $normalColor;
+  margin: 10px;
+  padding: 20px;
+}

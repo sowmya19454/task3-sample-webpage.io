@@ -1,0 +1,35 @@
+.footer {
+  border-color: $normalColor;
+  padding: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border-top-style: solid;
+  border-top-width: 1px;
+  border-top-color: $normalColor;
+  //   background-color: $normalColor;
+}
+
+.footer a {
+  margin-right: 20px;
+}
+.center {
+  text-align: center;
+}
+
+.fa-fb:hover {
+  color: #955353;
+}
+.fa-in:hover {
+  color: #955353;
+}
+.fa-tw:hover {
+  color: #955353;
+}
+.fa-li:hover {
+  color: #955353;
+}
+.fa-gi:hover {
+  color: #955353;
+}

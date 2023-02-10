@@ -1,0 +1,29 @@
+.main {
+  //   border: 2px solid $normalColor;
+  //   border-radius: 20px;
+  margin: 10px;
+  padding: 20px;
+  height: auto;
+  //   display: grid;
+}
+
+.main-top {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.main-top > .item {
+  //   border: 2px solid $normalColor;
+  margin: 10px;
+  padding: 20px;
+}
+.main-top > .item2,
+.item3 {
+  align-self: right;
+}
+
+.main-top img {
+  width: 100%;
+  //   max-width: ;
+  height: auto;
+}

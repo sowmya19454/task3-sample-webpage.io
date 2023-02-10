@@ -1,0 +1,120 @@
+@import "variables";
+@import "title";
+@import "navbar";
+@import "main";
+@import "mainBottom";
+@import "footer";
+@import "_contact.scss";
+@import "_form.scss";
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  // background-color: whitesmoke;
+  font-family: $normalFontFamily;
+  font-weight: $normalFontWeight;
+  font-size: $normalFontSize;
+  color: $normalColor;
+  line-height: $normalLineHeight;
+}
+.container {
+  display: grid;
+}
+
+.heading {
+  font-family: $headingFontFamily;
+  font-weight: $headingFontWeight;
+  font-size: $headingFontSize;
+  color: $headingColor;
+  line-height: $headingLineHeight;
+  margin-bottom: 30px;
+}
+
+.normal {
+  font-family: $normalFontFamily;
+  font-weight: $normalFontWeight;
+  font-size: $normalFontSize;
+  color: $normalColor;
+  line-height: $normalLineHeight;
+}
+
+@media only screen and (max-width: 480px) {
+  .main-bottom {
+    grid-template-columns: 1fr;
+    // grid-auto-rows: auto;
+  }
+  .main-top {
+    grid-template-columns: 1fr;
+  }
+
+  .block {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .main-bottom {
+    grid-template-columns: 1fr;
+  }
+  .main-top {
+    grid-template-columns: 1fr;
+    grid-auto-rows: auto;
+  }
+  .block {
+    grid-template-columns: 1fr;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .main-top {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media only screen and (min-width: 769px) {
+  .main-top {
+    grid-template-columns: 1fr;
+  }
+  .main-bottom {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.input-box {
+  border: 1px solid $normalColor;
+  border-radius: 10px;
+  margin: 10px 0px;
+  padding: 10px 20px;
+}
+
+.upper-arrow {
+  position: fixed;
+  bottom: 50px;
+  right: 50px;
+}
+// arrow
+.fa-arrow-up {
+  border: 1px solid $normalColor;
+  border-radius: 200px;
+  padding: 20px 10px;
+  color: darkred;
+}
+.fa-arrow-up:hover {
+  background-color: black;
+  color: aliceblue;
+}
+
+.last {
+  margin-bottom: 20px;
+  // background-color: $normalColor;
+}
+
+.lower a {
+  text-decoration: none;
+}
+.lower a:hover {
+  text-decoration: none;
+  color: aliceblue;
+}
